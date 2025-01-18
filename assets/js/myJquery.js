@@ -18,4 +18,26 @@ $(document).ready(function(){
 		 		}
 		 	});
 		});
+
+	$("#buttonPage1Next").click(function () {
+	  $("#page1").css("display", "none");
+	  $("#page2").css("display", "block");
+	  $("#progressBt").css("width", "100%");
+	  $("#titleForm").html("Parents Information");
+	  $("html, body").animate({ scrollTop: 0 }, "fast");
+	});
+
+	$("#buttonPage2Back").click(function () {
+	  $("#page1").css("display", "block");
+	  $("#page2").css("display", "none");
+	$("#progressBt").css("width", "50%");
+	$("#titleForm").html("Personal Information");
+	$("html, body").animate({ scrollTop: 0 }, "fast");
+	});
+
+
+   
 })
+
+	
+new DataTable('#student'); 

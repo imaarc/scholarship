@@ -23,6 +23,8 @@
     <link id="theme-style" rel="stylesheet" href="../assets/css/portal.css">
     <link id="theme-style" rel="stylesheet" href="../assets/css/number.css">
 
+    <link id="theme-style" rel="stylesheet" href="../assets/DataTables/datatables.min.css">
+
 </head> 
 
 
@@ -90,20 +92,20 @@
 					    </li>
 
 						<li class="nav-item">
-					        <a class="nav-link " href="CourtManagement.php">
+					        <a class="nav-link " href="students.php">
 						        <span class="nav-icon">
 						        <i class="fa fa-bars-progress"></i>
 						         </span>
-		                         <span class="nav-link-text">Manage Court</span>
+		                         <span class="nav-link-text">Manage Students</span>
 					        </a>
 					    </li>
 
 						<li class="nav-item">
-					        <a class="nav-link " href="CourtReservationList.php">
+					        <a class="nav-link " href="course.php">
 						        <span class="nav-icon">
 						        <i class="fa fa-list-check"></i>
 						         </span>
-		                         <span class="nav-link-text">Court Reservation</span>
+		                         <span class="nav-link-text">Courses</span>
 					        </a>
 					    </li>
 				    </ul><!--//app-menu-->

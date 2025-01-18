@@ -10,6 +10,8 @@
     <!-- Charts JS -->
     <script src="../assets/plugins/chart.js/chart.min.js"></script> 
     <script src="../assets/js/index-charts.js"></script> 
+    <script src="../assets/DataTables/datatables.min.js"></script> 
+    <script src="../assets/js/myJquery.js"></script> 
     
     <!-- Page Specific JS -->
     <script src="../assets/js/app.js"></script> 
