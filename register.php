@@ -48,8 +48,9 @@
 
                         <div class="mb-3">
                             <label for="setting-input-3" class="form-label">Contact Number</label>
-                            <input type="number" class="form-control" id="setting-input-3" name="contactNumber">
+                            <input type="number" class="form-control" id="setting-input-3" name="contactNumber" maxlength="11" oninput="if(this.value.length > 11) this.value = this.value.slice(0, 11);">
                         </div>
+
 
                         <div class="mb-3">
                             <label for="setting-input-3" class="form-label">Previous School</label>
@@ -164,14 +165,66 @@
 
                         <div class="d-flex justify-content-end">
                           <button type="button" id="buttonPage2Back" class="btn app-btn-primary mt-5 w-50 center me-3" >Back</button>
-                        
-                          <button type="submit" class="btn app-btn-primary mt-5 w-50 center" >Save</button>
+                        <button type="submit" class="btn app-btn-primary mt-5 w-50 center" >Save</button>
                         </div>
                     </div>
-                    
-                  </form>
-                    
 
+                    <!-- <div class="page3" id="page3" style="display: none;">
+
+                        <div class="mb-3">
+                            <label class="form-label mb-1">Issued Birth Certificate</label>
+                            <div class="input-group mb-3">
+                              <label class="input-group-text" for="inputGroupFile01">Upload</label>
+                              <input type="file" class="form-control" id="inputGroupFile01">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label mb-1">2x2 Picture</label>
+                            <div class="input-group mb-3">
+                              <label class="input-group-text" for="inputGroupFile02">Upload</label>
+                              <input type="file" class="form-control" id="inputGroupFile02" name="pic">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label mb-1">Form 137</label>
+                            <div class="input-group mb-3">
+                              <label class="input-group-text" for="inputGroupFile03">Upload</label>
+                              <input type="file" class="form-control" id="inputGroupFile03" name="form137">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label mb-1">Brgy. Indigency</label>
+                            <div class="input-group mb-3">
+                              <label class="input-group-text" for="inputGroupFile04">Upload</label>
+                              <input type="file" class="form-control" id="inputGroupFile04" name="indigency">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label mb-1">Scholarship Form</label>
+                            <div class="input-group mb-3">
+                              <label class="input-group-text" for="inputGroupFile05">Upload</label>
+                              <input type="file" class="form-control" id="inputGroupFile05" name="scholarshipForm">
+                            </div>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="form-label mb-1">Brgy. Endorsement</label>
+                            <div class="input-group mb-3">
+                              <label class="input-group-text" for="inputGroupFile06">Upload</label>
+                              <input type="file" class="form-control" id="inputGroupFile06" name="endorsement">
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+                          <button type="button" id="buttonPage3Back" class="btn app-btn-primary mt-5 w-50 center me-3" >Back</button>
+                         <button type="submit" class="btn app-btn-primary mt-5 w-50 center" >Save</button>
+                        </div>
+                    </div> -->
+                  </form>
                 </div><!--//auth-body-->
             </div>
         </div>

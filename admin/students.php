@@ -42,7 +42,7 @@
                                             <td><?php echo $row['Stud_year_status'] ?></td>
                                             <td><?php echo $row['Finace_status'] ?></td>
                                             <td><?php echo $row['Date_qualified'] ?></td>
-                                            <td> <a href="viewStudentDetails.php" class="btn btn-primary text-white"> View </a> </td>
+                                            <td> <a href="viewStudentDetails.php?stud_id=<?=$row['Stud_id']?>" class="btn btn-primary text-white"> View </a> </td>
                                         </tr>
                                         <?php
                                     }

@@ -12,6 +12,8 @@ function generateRandomCode() {
     return $letters . $numbers;
 }
 
+
+
 // Collect data from POST request
 $fName = $_POST['fName'];
 $mName = $_POST['mName'];
@@ -45,6 +47,7 @@ $mothersOccupation = $_POST['mothersOccupation'];
 $mothersIncome = $_POST['mothersIncome'];
 
 $studCode = generateRandomCode();
+
 
 // Insert into the student table
 $studentInsert = "INSERT INTO student(courseId, Stud_code, Stud_fname, Stud_mname, Stud_lname, Stud_gender, Stud_dob, Stud_add, Stud_contact, Stud_email, Stud_highschool, Stud_prefer_school, Stud_grade) 

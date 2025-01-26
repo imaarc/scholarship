@@ -13,12 +13,11 @@
                         </h4>
                     </center>
                     <div class="auth-form-container text-start">
-                        <form class="auth-form login-form" id="loginForm" action="phpFunctions/login_functions.php" method="POST">         
+                        <form class="auth-form login-form" id="loginFormStudent" action="phpFunctions/studentLoginFunction.php" method="POST">         
                             <div class="email mb-3">
                                 <label class="sr-only" for="signin-email">Student Code</label>
-                                <input id="usernameLogin" name="usernameLogin" type="text" class="form-control signin-email" placeholder="Student Code" required="required">
+                                <input id="studentCode" name="studentCode" type="text" class="form-control signin-email" placeholder="Student Code" required="required">
                             </div>
-
                             <div class="mb-3  text-center">
                                 <label class="form-check-label " for="remember">Register for a scholarship <a href="register.php">here</a></label>
                             </div>

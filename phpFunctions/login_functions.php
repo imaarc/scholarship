@@ -30,6 +30,7 @@ if ($result->num_rows > 0) {
         // Redirect based on user type
         $role = $row['isAdmin'] ? 'admin' : 'user';
         echo "<script>location.href='$role/index.php?role={$row['isAdmin']}';</script>";
+      
     } else {
         echo '<div class="text-danger text-center mt-1 mb-n2 font-weight-bold">Wrong Username or Password.</div>';
     }
