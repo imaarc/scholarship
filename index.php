@@ -1,5 +1,41 @@
     <?php include "includes/header.php"; ?> 
 
+      <?php 
+
+    if (isset($_GET['id'])) {
+       $id = $_GET['id'];
+
+       $sel = "SELECT * FROM student where Stud_id = '$id' ";
+       $selQuery = mysqli_query($connect, $sel)->fetch_assoc();
+       ?>
+         <div class="modal show" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true" style="display: block;">
+              <div class="modal-dialog">
+                 <div class="modal-content">
+                    <div class="modal-header">
+                       <h5 class="modal-title" id="successModalLabel">Success Registration</h5>
+                       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                       <p>Your student code is:</p>
+                       <h1 class="text-color-success"><?=$selQuery['Stud_code']?></h1>
+                       <p>Use your code to login.</p>
+                    </div>
+                    <div class="modal-footer">
+                       <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    </div>
+                 </div>
+              </div>
+           </div>
+
+             <script>
+              document.addEventListener('DOMContentLoaded', function () {
+                 const successModal = new bootstrap.Modal(document.getElementById('successModal'));
+                 successModal.show();
+              });
+             </script>
+
+       <?php } ?>
+
     
     <div class=" d-flex align-items-center justify-content-center" style="height: 100vh;">
         <div class="card col-md-8 col-lg-3 col-sm-11 p-4">
@@ -35,6 +71,8 @@
             </div>
         </div>
     </div>
+
+
  
    
 

@@ -21,6 +21,8 @@
     <link id="theme-style" rel="stylesheet" href="assets/css/portal.css">
 
     <link id="theme-style" rel="stylesheet" href="assets/css/myStyle.css">
+    <link id="theme-style" rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+    <script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 
 </head> 
 

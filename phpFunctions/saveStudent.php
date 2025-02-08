@@ -66,7 +66,7 @@ if ($queryInsert) {
     $queryParentsInsert = mysqli_query($connect, $parentsInsert);
 
     if ($queryParentsInsert) {
-        header("Location: ../index.php?success=1");
+        header("Location: ../index.php?success=1&id=$studId");
     } else {
         header("Location: ../index.php?success=0&error=parents");
     }

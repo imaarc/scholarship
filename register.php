@@ -114,7 +114,7 @@
 
                         <div class="mb-3">
                             <label for="setting-input-3" class="form-label">Father's Contact Number</label>
-                            <input type="number" class="form-control" id="setting-input-3" name="FatherContactNumber">
+                            <input type="number" class="form-control" id="setting-input-3" name="FatherContactNumber" maxlength="11" >
                         </div>
 
                         <div class="mb-3">
@@ -148,7 +148,7 @@
 
                         <div class="mb-3">
                             <label for="setting-input-3" class="form-label">Mother's Contact Number</label>
-                            <input type="number" class="form-control" id="setting-input-3" name="mothersContactNumber">
+                            <input type="number" class="form-control" id="setting-input-3" name="mothersContactNumber" maxlength="11">
                         </div>
 
                         <div class="mb-3">
@@ -229,6 +229,8 @@
             </div>
         </div>
     </div>
+
+    
 
     
 

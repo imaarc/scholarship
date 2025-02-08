@@ -79,6 +79,14 @@
 			    <nav id="app-nav-main" class="app-nav app-nav-main flex-grow-1">
 				    <ul class="app-menu list-unstyled accordion" id="menu-accordion">
 
+				    	<li class="nav-item bg-color-disabled mt-4">
+						        <span class="nav-icon">
+						        <i class="fa fa-list-check"></i>
+						         </span>
+		                         <span class="nav-link-text ms-3 ">DASHBOARD</span>
+					       
+					    </li>
+
 					    <li class="nav-item">
 					        <a class="nav-link " href="index.php">
 						        <span class="nav-icon">
@@ -91,6 +99,14 @@
 					        </a>
 					    </li>
 
+					    <li class="nav-item bg-color-disabled mt-4">
+						        <span class="nav-icon">
+						        <i class="fa fa-list-check"></i>
+						         </span>
+		                         <span class="nav-link-text ms-3 ">MANAGEMENT</span>
+					       
+					    </li>
+
 						<li class="nav-item">
 					        <a class="nav-link " href="students.php">
 						        <span class="nav-icon">
@@ -100,7 +116,15 @@
 					        </a>
 					    </li>
 
-						<li class="nav-item">
+					    <li class="nav-item bg-color-disabled mt-4">
+						        <span class="nav-icon">
+						        <i class="fa fa-list-check"></i>
+						         </span>
+		                         <span class="nav-link-text ms-3 ">BUILD-UPS</span>
+					       
+					    </li>
+
+					    <li class="nav-item">
 					        <a class="nav-link " href="course.php">
 						        <span class="nav-icon">
 						        <i class="fa fa-list-check"></i>
@@ -108,6 +132,26 @@
 		                         <span class="nav-link-text">Courses</span>
 					        </a>
 					    </li>
+
+					    <li class="nav-item">
+					        <a class="nav-link " href="requirements.php">
+						        <span class="nav-icon">
+						        <i class="fa fa-list-check"></i>
+						         </span>
+		                         <span class="nav-link-text">Requirements</span>
+					        </a>
+					    </li>
+
+					    <li class="nav-item">
+					        <a class="nav-link " href="semester.php">
+						        <span class="nav-icon">
+						        <i class="fa fa-list-check"></i>
+						         </span>
+		                         <span class="nav-link-text">Semester</span>
+					        </a>
+					    </li>
+
+
 				    </ul><!--//app-menu-->
 			    </nav><!--//app-nav-->
 			
